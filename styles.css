@@ -65,7 +65,36 @@ section img {
   border-radius: 8px;
   max-width: 100%;   /* utile si tes images dépassent */
 }
-  
+  .fiche-livre {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+}
+
+.fiche-livre img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.fiche-contenu h2 {
+  margin-top: 0;
+  color: #2f4f2f; /* Vert TolkienCritics */
+  font-family: 'Georgia', serif;
+}
+
+.fiche-contenu p {
+  line-height: 1.6;
+}
+
+.fiche-contenu strong {
+  color: #2f4f2f;
+}
 }
 
 footer {
