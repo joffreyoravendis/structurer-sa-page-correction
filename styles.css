@@ -98,7 +98,7 @@ section img {
 }
 
 .fiche-livre:hover {
-  transform: translateY(-55px);
+  transform: translateY(-5px);
   transition: transform 0.3s ease;
 }
 
