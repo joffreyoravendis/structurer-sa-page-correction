@@ -1,0 +1,105 @@
+/* Importe une typo fantasy depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F9F9F6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Uncial Antiqua', serif;
+  color: #2F4F2F; /* Vert forêt sombre */
+}
+
+header {
+  background-color: #3A5F0B; /* Vert plus soutenu */
+  color: #fff;
+  padding: 20px;
+}
+
+header img {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section img {
+  display: block;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #3A5F0B;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  background-color: #E6F2E6;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3A5F0B;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+form button {
+  background-color: #3A5F0B;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #4B7F0E;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
