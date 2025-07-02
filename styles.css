@@ -27,9 +27,9 @@ header img {
 
 nav {
   display: flex;             /* active flex */
-  justify-content: flex-end; /* aligne à droite */
-  background-color: #3a5e1a; /* ton vert Tolkien */
-  padding: 20px;             /* optionnel pour respirer */
+  justify-content: flex-end; /* aligne à droite, je trouve cela plus joli */
+  background-color: #3a5e1a; /* un vert naturel, comme demandé dans l'exercice */
+  padding: 10px;             /* optionnel pour respirer */
 }
 
 nav ul {
@@ -49,6 +49,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
 main {
   max-width: 1000px;
   margin: 40px auto;
@@ -95,6 +96,10 @@ section img {
 .fiche-contenu strong {
   color: #2f4f2f;
 }
+
+.fiche-livre:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
 }
 
 footer {
